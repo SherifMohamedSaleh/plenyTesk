@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92FB70282AC4372C0085C8E2 /* plenyTeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */; };
+		92FB702A2AC4372C0085C8E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70292AC4372C0085C8E2 /* ContentView.swift */; };
+		92FB702C2AC4372E0085C8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FB702B2AC4372E0085C8E2 /* Assets.xcassets */; };
+		92FB702F2AC4372E0085C8E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FB702E2AC4372E0085C8E2 /* Preview Assets.xcassets */; };
+		92FB70312AC4372E0085C8E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70302AC4372E0085C8E2 /* Persistence.swift */; };
+		92FB70342AC4372E0085C8E2 /* plenyTesk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70322AC4372E0085C8E2 /* plenyTesk.xcdatamodeld */; };
+		92FB703E2AC4372F0085C8E2 /* plenyTeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB703D2AC4372F0085C8E2 /* plenyTeskTests.swift */; };
+		92FB70482AC4372F0085C8E2 /* plenyTeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70472AC4372F0085C8E2 /* plenyTeskUITests.swift */; };
+		92FB704A2AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70492AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92FB703A2AC4372F0085C8E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FB701C2AC4372C0085C8E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FB70232AC4372C0085C8E2;
+			remoteInfo = plenyTesk;
+		};
+		92FB70442AC4372F0085C8E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FB701C2AC4372C0085C8E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FB70232AC4372C0085C8E2;
+			remoteInfo = plenyTesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92FB70242AC4372C0085C8E2 /* plenyTesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plenyTesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskApp.swift; sourceTree = "<group>"; };
+		92FB70292AC4372C0085C8E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92FB702B2AC4372E0085C8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FB702E2AC4372E0085C8E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92FB70302AC4372E0085C8E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		92FB70332AC4372E0085C8E2 /* plenyTesk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = plenyTesk.xcdatamodel; sourceTree = "<group>"; };
+		92FB70392AC4372F0085C8E2 /* plenyTeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plenyTeskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FB703D2AC4372F0085C8E2 /* plenyTeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskTests.swift; sourceTree = "<group>"; };
+		92FB70432AC4372F0085C8E2 /* plenyTeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plenyTeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FB70472AC4372F0085C8E2 /* plenyTeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskUITests.swift; sourceTree = "<group>"; };
+		92FB70492AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FB70212AC4372C0085C8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FB70362AC4372F0085C8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FB70402AC4372F0085C8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92FB701B2AC4372C0085C8E2 = {
+			isa = PBXGroup;
+			children = (
+				92FB70262AC4372C0085C8E2 /* plenyTesk */,
+				92FB703C2AC4372F0085C8E2 /* plenyTeskTests */,
+				92FB70462AC4372F0085C8E2 /* plenyTeskUITests */,
+				92FB70252AC4372C0085C8E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92FB70252AC4372C0085C8E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70242AC4372C0085C8E2 /* plenyTesk.app */,
+				92FB70392AC4372F0085C8E2 /* plenyTeskTests.xctest */,
+				92FB70432AC4372F0085C8E2 /* plenyTeskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FB70262AC4372C0085C8E2 /* plenyTesk */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */,
+				92FB70292AC4372C0085C8E2 /* ContentView.swift */,
+				92FB702B2AC4372E0085C8E2 /* Assets.xcassets */,
+				92FB70302AC4372E0085C8E2 /* Persistence.swift */,
+				92FB70322AC4372E0085C8E2 /* plenyTesk.xcdatamodeld */,
+				92FB702D2AC4372E0085C8E2 /* Preview Content */,
+			);
+			path = plenyTesk;
+			sourceTree = "<group>";
+		};
+		92FB702D2AC4372E0085C8E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92FB702E2AC4372E0085C8E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92FB703C2AC4372F0085C8E2 /* plenyTeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FB703D2AC4372F0085C8E2 /* plenyTeskTests.swift */,
+			);
+			path = plenyTeskTests;
+			sourceTree = "<group>";
+		};
+		92FB70462AC4372F0085C8E2 /* plenyTeskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70472AC4372F0085C8E2 /* plenyTeskUITests.swift */,
+				92FB70492AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift */,
+			);
+			path = plenyTeskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FB70232AC4372C0085C8E2 /* plenyTesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FB704D2AC4372F0085C8E2 /* Build configuration list for PBXNativeTarget "plenyTesk" */;
+			buildPhases = (
+				92FB70202AC4372C0085C8E2 /* Sources */,
+				92FB70212AC4372C0085C8E2 /* Frameworks */,
+				92FB70222AC4372C0085C8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plenyTesk;
+			productName = plenyTesk;
+			productReference = 92FB70242AC4372C0085C8E2 /* plenyTesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92FB70382AC4372F0085C8E2 /* plenyTeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FB70502AC4372F0085C8E2 /* Build configuration list for PBXNativeTarget "plenyTeskTests" */;
+			buildPhases = (
+				92FB70352AC4372F0085C8E2 /* Sources */,
+				92FB70362AC4372F0085C8E2 /* Frameworks */,
+				92FB70372AC4372F0085C8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FB703B2AC4372F0085C8E2 /* PBXTargetDependency */,
+			);
+			name = plenyTeskTests;
+			productName = plenyTeskTests;
+			productReference = 92FB70392AC4372F0085C8E2 /* plenyTeskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92FB70422AC4372F0085C8E2 /* plenyTeskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FB70532AC4372F0085C8E2 /* Build configuration list for PBXNativeTarget "plenyTeskUITests" */;
+			buildPhases = (
+				92FB703F2AC4372F0085C8E2 /* Sources */,
+				92FB70402AC4372F0085C8E2 /* Frameworks */,
+				92FB70412AC4372F0085C8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FB70452AC4372F0085C8E2 /* PBXTargetDependency */,
+			);
+			name = plenyTeskUITests;
+			productName = plenyTeskUITests;
+			productReference = 92FB70432AC4372F0085C8E2 /* plenyTeskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FB701C2AC4372C0085C8E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					92FB70232AC4372C0085C8E2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					92FB70382AC4372F0085C8E2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 92FB70232AC4372C0085C8E2;
+					};
+					92FB70422AC4372F0085C8E2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 92FB70232AC4372C0085C8E2;
+					};
+				};
+			};
+			buildConfigurationList = 92FB701F2AC4372C0085C8E2 /* Build configuration list for PBXProject "plenyTesk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92FB701B2AC4372C0085C8E2;
+			productRefGroup = 92FB70252AC4372C0085C8E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FB70232AC4372C0085C8E2 /* plenyTesk */,
+				92FB70382AC4372F0085C8E2 /* plenyTeskTests */,
+				92FB70422AC4372F0085C8E2 /* plenyTeskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FB70222AC4372C0085C8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FB702F2AC4372E0085C8E2 /* Preview Assets.xcassets in Resources */,
+				92FB702C2AC4372E0085C8E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FB70372AC4372F0085C8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FB70412AC4372F0085C8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FB70202AC4372C0085C8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FB70312AC4372E0085C8E2 /* Persistence.swift in Sources */,
+				92FB70342AC4372E0085C8E2 /* plenyTesk.xcdatamodeld in Sources */,
+				92FB702A2AC4372C0085C8E2 /* ContentView.swift in Sources */,
+				92FB70282AC4372C0085C8E2 /* plenyTeskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FB70352AC4372F0085C8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FB703E2AC4372F0085C8E2 /* plenyTeskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FB703F2AC4372F0085C8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FB704A2AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift in Sources */,
+				92FB70482AC4372F0085C8E2 /* plenyTeskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92FB703B2AC4372F0085C8E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FB70232AC4372C0085C8E2 /* plenyTesk */;
+			targetProxy = 92FB703A2AC4372F0085C8E2 /* PBXContainerItemProxy */;
+		};
+		92FB70452AC4372F0085C8E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FB70232AC4372C0085C8E2 /* plenyTesk */;
+			targetProxy = 92FB70442AC4372F0085C8E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92FB704B2AC4372F0085C8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92FB704C2AC4372F0085C8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FB704E2AC4372F0085C8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plenyTesk/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAG6XK6WCJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.saleh.plenyTesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92FB704F2AC4372F0085C8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"plenyTesk/Preview Content\"";
+				DEVELOPMENT_TEAM = ZAG6XK6WCJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.saleh.plenyTesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92FB70512AC4372F0085C8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAG6XK6WCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.saleh.plenyTeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plenyTesk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plenyTesk";
+			};
+			name = Debug;
+		};
+		92FB70522AC4372F0085C8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAG6XK6WCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.saleh.plenyTeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plenyTesk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plenyTesk";
+			};
+			name = Release;
+		};
+		92FB70542AC4372F0085C8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAG6XK6WCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.saleh.plenyTeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plenyTesk;
+			};
+			name = Debug;
+		};
+		92FB70552AC4372F0085C8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZAG6XK6WCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.saleh.plenyTeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plenyTesk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FB701F2AC4372C0085C8E2 /* Build configuration list for PBXProject "plenyTesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FB704B2AC4372F0085C8E2 /* Debug */,
+				92FB704C2AC4372F0085C8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FB704D2AC4372F0085C8E2 /* Build configuration list for PBXNativeTarget "plenyTesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FB704E2AC4372F0085C8E2 /* Debug */,
+				92FB704F2AC4372F0085C8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FB70502AC4372F0085C8E2 /* Build configuration list for PBXNativeTarget "plenyTeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FB70512AC4372F0085C8E2 /* Debug */,
+				92FB70522AC4372F0085C8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FB70532AC4372F0085C8E2 /* Build configuration list for PBXNativeTarget "plenyTeskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FB70542AC4372F0085C8E2 /* Debug */,
+				92FB70552AC4372F0085C8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92FB70322AC4372E0085C8E2 /* plenyTesk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92FB70332AC4372E0085C8E2 /* plenyTesk.xcdatamodel */,
+			);
+			currentVersion = 92FB70332AC4372E0085C8E2 /* plenyTesk.xcdatamodel */;
+			path = plenyTesk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92FB701C2AC4372C0085C8E2 /* Project object */;
+}
