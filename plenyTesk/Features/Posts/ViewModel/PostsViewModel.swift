@@ -25,11 +25,8 @@ class PostsViewModel: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     private let persistentContainer: NSPersistentContainer
-    
     private var service = PostsServices()
     
-//    @Published var state : LoadingState = .idle
-
     
     @Published var posts: [PostModel] = []
     @Published var isLoading = false
@@ -42,7 +39,7 @@ class PostsViewModel: ObservableObject {
     @Published var error: AFError?
     
     init() {
-        persistentContainer = NSPersistentContainer(name: "PostsDataModel") // Replace with your Core Data model name
+        persistentContainer = NSPersistentContainer(name: "PostsDataModel")
         persistentContainer.loadPersistentStores { description, error in
             if let error = error {
                 fatalError("Error loading Core Data stores: \(error)")
@@ -53,13 +50,6 @@ class PostsViewModel: ObservableObject {
     }
     
     func filterPosts() -> [PostModel] {
-        //
-        //        for  post in self.posts{
-        //            if post.user == nil {
-        //                getUser(id: post.userID , PostId: post.id)
-        //            }
-        //        }
-        
         if searchText.isEmpty {
             return posts
         } else {
@@ -93,56 +83,19 @@ class PostsViewModel: ObservableObject {
             }
         }, receiveValue: { response in
             let user = response
-            print("---------user-----------")
-            print(user.username)
-            print("--------------------")
-            
-            
-            
             for var post in self.posts{
                 if( post.id == PostId ) {
                     
                     post.user = User(id: user.id, firstName: user.firstName, lastName: user.lastName, maidenName: user.maidenName, age: user.age, gender: user.gender, email: user.email, phone: user.phone, username: user.username, image: user.image)
-                    
-                    print("---------post-----------")
-                    print(post.user?.username ?? "" as String)
-                    print("--------------------")
+
                 }
             }
              
         }
         ) .store(in: &cancellables)
-        //                    }
-        //
-        //
-        //        service.getUser(userRequest: id ).sink(receiveCompletion: { completion in
-        //            switch completion {
-        //            case .finished:
-        //                break
-        //            case .failure(let error):
-        //                print("Error: \(error)")
-        //            }
-        //        }, receiveValue: { [weak self] response in
-        //            let user = response
-        //            return user
-        ////            for var post in self!.posts{
-        ////                if( post.id == PostId ) {
-        ////
-        ////                    post.user = User(id: user.id, firstName: user.firstName, lastName: user.lastName, maidenName: user.maidenName, age: user.age, gender: user.gender, email: user.email, phone: user.phone, username: user.username, image: user.image)
-        ////                }
-        ////            }
-        //
-        //        }
-        //        ) .store(in: &cancellables)
-        
-        
-        
-        
+  
     }
-    //
     func fetchMovies() async {
-        
-//        state = .loading
 
         if isRemainig {
             
@@ -167,7 +120,6 @@ class PostsViewModel: ObservableObject {
                             Task { @MainActor [weak self] in
                                 self?.getPostUser(id: post.userID, PostId: post.id)
                             }
-
                         }
                         self?.posts.append(contentsOf: newPosts)
                         self?.cachePostsToCoreData(newPosts)

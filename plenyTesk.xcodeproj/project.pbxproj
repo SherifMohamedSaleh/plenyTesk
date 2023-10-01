@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92216FAD2AC9CE1300AD03D6 /* ImageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92216FAC2AC9CE1300AD03D6 /* ImageBox.swift */; };
 		92CD0A272AC9952B003508F1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0A262AC9952B003508F1 /* UserModel.swift */; };
 		92FB70282AC4372C0085C8E2 /* plenyTeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */; };
 		92FB702A2AC4372C0085C8E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70292AC4372C0085C8E2 /* ContentView.swift */; };
@@ -63,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		136210061A0F231BB2A32920 /* Pods_plenyTesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plenyTesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92216FAC2AC9CE1300AD03D6 /* ImageBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBox.swift; sourceTree = "<group>"; };
 		92CD0A262AC9952B003508F1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		92FB70242AC4372C0085C8E2 /* plenyTesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plenyTesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskApp.swift; sourceTree = "<group>"; };
@@ -75,10 +77,10 @@
 		92FB70432AC4372F0085C8E2 /* plenyTeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plenyTeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FB70472AC4372F0085C8E2 /* plenyTeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskUITests.swift; sourceTree = "<group>"; };
 		92FB70492AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		92FB706C2AC45CDA0085C8E2 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataClass.swift"; path = "coreData/Post+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		92FB706D2AC45CDA0085C8E2 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataProperties.swift"; path = "coreData/Post+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		92FB706E2AC45CDA0085C8E2 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataClass.swift"; path = "coreData/Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		92FB706F2AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataProperties.swift"; path = "coreData/Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		92FB706C2AC45CDA0085C8E2 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataClass.swift"; path = "plenyTesk/CoreData/Post+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		92FB706D2AC45CDA0085C8E2 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataProperties.swift"; path = "plenyTesk/CoreData/Post+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		92FB706E2AC45CDA0085C8E2 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataClass.swift"; path = "plenyTesk/CoreData/Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		92FB706F2AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataProperties.swift"; path = "plenyTesk/CoreData/Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		92FB70772AC466490085C8E2 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		92FB70782AC466490085C8E2 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		92FB70792AC466490085C8E2 /* NetworkEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEnums.swift; sourceTree = "<group>"; };
@@ -130,6 +132,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92216FAB2AC9CDF200AD03D6 /* ImageBox */ = {
+			isa = PBXGroup;
+			children = (
+				92216FAC2AC9CE1300AD03D6 /* ImageBox.swift */,
+			);
+			path = ImageBox;
+			sourceTree = "<group>";
+		};
+		92216FAE2AC9CE2F00AD03D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92FB708C2AC4665E0085C8E2 /* PostView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92216FAF2AC9CE3C00AD03D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92FB708B2AC4665E0085C8E2 /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92216FB02AC9CE5C00AD03D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70932AC4665E0085C8E2 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92216FB12AC9CE6900AD03D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70922AC4665E0085C8E2 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92216FB22AC9CE8E00AD03D6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				92FB706C2AC45CDA0085C8E2 /* Post+CoreDataClass.swift */,
+				92FB706D2AC45CDA0085C8E2 /* Post+CoreDataProperties.swift */,
+				92FB706E2AC45CDA0085C8E2 /* Tag+CoreDataClass.swift */,
+				92FB706F2AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		92FB701B2AC4372C0085C8E2 = {
 			isa = PBXGroup;
 			children = (
@@ -155,14 +208,11 @@
 		92FB70262AC4372C0085C8E2 /* plenyTesk */ = {
 			isa = PBXGroup;
 			children = (
+				92216FB22AC9CE8E00AD03D6 /* CoreData */,
 				92FB70A82AC469E40085C8E2 /* LoadingView.swift */,
 				92FB70762AC4661E0085C8E2 /* Networking */,
 				92FB70752AC466120085C8E2 /* Extensions */,
 				92FB70742AC466070085C8E2 /* Features */,
-				92FB706C2AC45CDA0085C8E2 /* Post+CoreDataClass.swift */,
-				92FB706D2AC45CDA0085C8E2 /* Post+CoreDataProperties.swift */,
-				92FB706E2AC45CDA0085C8E2 /* Tag+CoreDataClass.swift */,
-				92FB706F2AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift */,
 				92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */,
 				92FB70292AC4372C0085C8E2 /* ContentView.swift */,
 				92FB702B2AC4372E0085C8E2 /* Assets.xcassets */,
@@ -239,9 +289,10 @@
 		92FB70872AC4665E0085C8E2 /* Posts */ = {
 			isa = PBXGroup;
 			children = (
+				92216FAF2AC9CE3C00AD03D6 /* ViewModel */,
+				92216FAE2AC9CE2F00AD03D6 /* View */,
+				92216FAB2AC9CDF200AD03D6 /* ImageBox */,
 				92FB70882AC4665E0085C8E2 /* Models */,
-				92FB708B2AC4665E0085C8E2 /* PostsViewModel.swift */,
-				92FB708C2AC4665E0085C8E2 /* PostView.swift */,
 				92FB708D2AC4665E0085C8E2 /* Services */,
 			);
 			path = Posts;
@@ -269,8 +320,8 @@
 		92FB70912AC4665E0085C8E2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				92FB70922AC4665E0085C8E2 /* LoginViewModel.swift */,
-				92FB70932AC4665E0085C8E2 /* LoginView.swift */,
+				92216FB12AC9CE6900AD03D6 /* ViewModel */,
+				92216FB02AC9CE5C00AD03D6 /* View */,
 				92FB70942AC4665E0085C8E2 /* Models */,
 				92FB70972AC4665E0085C8E2 /* Services */,
 			);
@@ -491,6 +542,7 @@
 				92FB70702AC45CDA0085C8E2 /* Post+CoreDataClass.swift in Sources */,
 				92FB70A62AC4665E0085C8E2 /* LoginTarget.swift in Sources */,
 				92FB70A12AC4665E0085C8E2 /* PostsTarget.swift in Sources */,
+				92216FAD2AC9CE1300AD03D6 /* ImageBox.swift in Sources */,
 				92FB70A72AC4665E0085C8E2 /* LoginService.swift in Sources */,
 				92FB70A52AC4665E0085C8E2 /* LoginResponse.swift in Sources */,
 				92FB70722AC45CDA0085C8E2 /* Tag+CoreDataClass.swift in Sources */,
