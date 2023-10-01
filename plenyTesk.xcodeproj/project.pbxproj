@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92CD0A272AC9952B003508F1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD0A262AC9952B003508F1 /* UserModel.swift */; };
 		92FB70282AC4372C0085C8E2 /* plenyTeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */; };
 		92FB702A2AC4372C0085C8E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70292AC4372C0085C8E2 /* ContentView.swift */; };
 		92FB702C2AC4372E0085C8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FB702B2AC4372E0085C8E2 /* Assets.xcassets */; };
 		92FB702F2AC4372E0085C8E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FB702E2AC4372E0085C8E2 /* Preview Assets.xcassets */; };
-		92FB70312AC4372E0085C8E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70302AC4372E0085C8E2 /* Persistence.swift */; };
 		92FB70342AC4372E0085C8E2 /* plenyTesk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70322AC4372E0085C8E2 /* plenyTesk.xcdatamodeld */; };
 		92FB703E2AC4372F0085C8E2 /* plenyTeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB703D2AC4372F0085C8E2 /* plenyTeskTests.swift */; };
 		92FB70482AC4372F0085C8E2 /* plenyTeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70472AC4372F0085C8E2 /* plenyTeskUITests.swift */; };
 		92FB704A2AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70492AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift */; };
+		92FB70702AC45CDA0085C8E2 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB706C2AC45CDA0085C8E2 /* Post+CoreDataClass.swift */; };
+		92FB70712AC45CDA0085C8E2 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB706D2AC45CDA0085C8E2 /* Post+CoreDataProperties.swift */; };
+		92FB70722AC45CDA0085C8E2 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB706E2AC45CDA0085C8E2 /* Tag+CoreDataClass.swift */; };
+		92FB70732AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB706F2AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift */; };
+		92FB707C2AC466490085C8E2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70772AC466490085C8E2 /* Service.swift */; };
+		92FB707D2AC466490085C8E2 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70782AC466490085C8E2 /* BaseService.swift */; };
+		92FB707E2AC466490085C8E2 /* NetworkEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70792AC466490085C8E2 /* NetworkEnums.swift */; };
+		92FB707F2AC466490085C8E2 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB707A2AC466490085C8E2 /* BaseResponse.swift */; };
+		92FB70802AC466490085C8E2 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB707B2AC466490085C8E2 /* TargetType.swift */; };
+		92FB70832AC466540085C8E2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70812AC466540085C8E2 /* ViewExtension.swift */; };
+		92FB70842AC466540085C8E2 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70822AC466540085C8E2 /* Extentions.swift */; };
+		92FB709A2AC4665E0085C8E2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70862AC4665E0085C8E2 /* Coordinator.swift */; };
+		92FB709B2AC4665E0085C8E2 /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70892AC4665E0085C8E2 /* PostRequest.swift */; };
+		92FB709C2AC4665E0085C8E2 /* PostsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB708A2AC4665E0085C8E2 /* PostsResponse.swift */; };
+		92FB709D2AC4665E0085C8E2 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB708B2AC4665E0085C8E2 /* PostsViewModel.swift */; };
+		92FB709E2AC4665E0085C8E2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB708C2AC4665E0085C8E2 /* PostView.swift */; };
+		92FB70A02AC4665E0085C8E2 /* PostsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB708F2AC4665E0085C8E2 /* PostsServices.swift */; };
+		92FB70A12AC4665E0085C8E2 /* PostsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70902AC4665E0085C8E2 /* PostsTarget.swift */; };
+		92FB70A22AC4665E0085C8E2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70922AC4665E0085C8E2 /* LoginViewModel.swift */; };
+		92FB70A32AC4665E0085C8E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70932AC4665E0085C8E2 /* LoginView.swift */; };
+		92FB70A42AC4665E0085C8E2 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70952AC4665E0085C8E2 /* LoginRequest.swift */; };
+		92FB70A52AC4665E0085C8E2 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70962AC4665E0085C8E2 /* LoginResponse.swift */; };
+		92FB70A62AC4665E0085C8E2 /* LoginTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70982AC4665E0085C8E2 /* LoginTarget.swift */; };
+		92FB70A72AC4665E0085C8E2 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70992AC4665E0085C8E2 /* LoginService.swift */; };
+		92FB70A92AC469E40085C8E2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB70A82AC469E40085C8E2 /* LoadingView.swift */; };
+		CECB2D10951D012F01C97C93 /* Pods_plenyTesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136210061A0F231BB2A32920 /* Pods_plenyTesk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +62,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136210061A0F231BB2A32920 /* Pods_plenyTesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plenyTesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CD0A262AC9952B003508F1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		92FB70242AC4372C0085C8E2 /* plenyTesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plenyTesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskApp.swift; sourceTree = "<group>"; };
 		92FB70292AC4372C0085C8E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92FB702B2AC4372E0085C8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FB702E2AC4372E0085C8E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		92FB70302AC4372E0085C8E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		92FB70332AC4372E0085C8E2 /* plenyTesk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = plenyTesk.xcdatamodel; sourceTree = "<group>"; };
 		92FB70392AC4372F0085C8E2 /* plenyTeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plenyTeskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FB703D2AC4372F0085C8E2 /* plenyTeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskTests.swift; sourceTree = "<group>"; };
 		92FB70432AC4372F0085C8E2 /* plenyTeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plenyTeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FB70472AC4372F0085C8E2 /* plenyTeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskUITests.swift; sourceTree = "<group>"; };
 		92FB70492AC4372F0085C8E2 /* plenyTeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plenyTeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92FB706C2AC45CDA0085C8E2 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataClass.swift"; path = "coreData/Post+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		92FB706D2AC45CDA0085C8E2 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Post+CoreDataProperties.swift"; path = "coreData/Post+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		92FB706E2AC45CDA0085C8E2 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataClass.swift"; path = "coreData/Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		92FB706F2AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataProperties.swift"; path = "coreData/Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		92FB70772AC466490085C8E2 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		92FB70782AC466490085C8E2 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		92FB70792AC466490085C8E2 /* NetworkEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEnums.swift; sourceTree = "<group>"; };
+		92FB707A2AC466490085C8E2 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		92FB707B2AC466490085C8E2 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		92FB70812AC466540085C8E2 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		92FB70822AC466540085C8E2 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		92FB70862AC4665E0085C8E2 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		92FB70892AC4665E0085C8E2 /* PostRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		92FB708A2AC4665E0085C8E2 /* PostsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsResponse.swift; sourceTree = "<group>"; };
+		92FB708B2AC4665E0085C8E2 /* PostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		92FB708C2AC4665E0085C8E2 /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		92FB708F2AC4665E0085C8E2 /* PostsServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsServices.swift; sourceTree = "<group>"; };
+		92FB70902AC4665E0085C8E2 /* PostsTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTarget.swift; sourceTree = "<group>"; };
+		92FB70922AC4665E0085C8E2 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		92FB70932AC4665E0085C8E2 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		92FB70952AC4665E0085C8E2 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		92FB70962AC4665E0085C8E2 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		92FB70982AC4665E0085C8E2 /* LoginTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTarget.swift; sourceTree = "<group>"; };
+		92FB70992AC4665E0085C8E2 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		92FB70A82AC469E40085C8E2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AAA36631DEA72E08100AA14B /* Pods-plenyTesk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plenyTesk.release.xcconfig"; path = "Target Support Files/Pods-plenyTesk/Pods-plenyTesk.release.xcconfig"; sourceTree = "<group>"; };
+		BF2C5BC10C2935F28E500C6B /* Pods-plenyTesk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plenyTesk.debug.xcconfig"; path = "Target Support Files/Pods-plenyTesk/Pods-plenyTesk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECB2D10951D012F01C97C93 /* Pods_plenyTesk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +137,8 @@
 				92FB703C2AC4372F0085C8E2 /* plenyTeskTests */,
 				92FB70462AC4372F0085C8E2 /* plenyTeskUITests */,
 				92FB70252AC4372C0085C8E2 /* Products */,
+				EE36260293A7C9811845B2C8 /* Pods */,
+				A72671684A409C227CA4ED4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +155,17 @@
 		92FB70262AC4372C0085C8E2 /* plenyTesk */ = {
 			isa = PBXGroup;
 			children = (
+				92FB70A82AC469E40085C8E2 /* LoadingView.swift */,
+				92FB70762AC4661E0085C8E2 /* Networking */,
+				92FB70752AC466120085C8E2 /* Extensions */,
+				92FB70742AC466070085C8E2 /* Features */,
+				92FB706C2AC45CDA0085C8E2 /* Post+CoreDataClass.swift */,
+				92FB706D2AC45CDA0085C8E2 /* Post+CoreDataProperties.swift */,
+				92FB706E2AC45CDA0085C8E2 /* Tag+CoreDataClass.swift */,
+				92FB706F2AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift */,
 				92FB70272AC4372C0085C8E2 /* plenyTeskApp.swift */,
 				92FB70292AC4372C0085C8E2 /* ContentView.swift */,
 				92FB702B2AC4372E0085C8E2 /* Assets.xcassets */,
-				92FB70302AC4372E0085C8E2 /* Persistence.swift */,
 				92FB70322AC4372E0085C8E2 /* plenyTesk.xcdatamodeld */,
 				92FB702D2AC4372E0085C8E2 /* Preview Content */,
 			);
@@ -133,6 +197,121 @@
 			path = plenyTeskUITests;
 			sourceTree = "<group>";
 		};
+		92FB70742AC466070085C8E2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70852AC4665E0085C8E2 /* Coordinator */,
+				92FB70912AC4665E0085C8E2 /* Login */,
+				92FB70872AC4665E0085C8E2 /* Posts */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		92FB70752AC466120085C8E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70822AC466540085C8E2 /* Extentions.swift */,
+				92FB70812AC466540085C8E2 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		92FB70762AC4661E0085C8E2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				92FB707A2AC466490085C8E2 /* BaseResponse.swift */,
+				92FB70782AC466490085C8E2 /* BaseService.swift */,
+				92FB70792AC466490085C8E2 /* NetworkEnums.swift */,
+				92FB70772AC466490085C8E2 /* Service.swift */,
+				92FB707B2AC466490085C8E2 /* TargetType.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		92FB70852AC4665E0085C8E2 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70862AC4665E0085C8E2 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		92FB70872AC4665E0085C8E2 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70882AC4665E0085C8E2 /* Models */,
+				92FB708B2AC4665E0085C8E2 /* PostsViewModel.swift */,
+				92FB708C2AC4665E0085C8E2 /* PostView.swift */,
+				92FB708D2AC4665E0085C8E2 /* Services */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		92FB70882AC4665E0085C8E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70892AC4665E0085C8E2 /* PostRequest.swift */,
+				92FB708A2AC4665E0085C8E2 /* PostsResponse.swift */,
+				92CD0A262AC9952B003508F1 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92FB708D2AC4665E0085C8E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92FB708F2AC4665E0085C8E2 /* PostsServices.swift */,
+				92FB70902AC4665E0085C8E2 /* PostsTarget.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		92FB70912AC4665E0085C8E2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70922AC4665E0085C8E2 /* LoginViewModel.swift */,
+				92FB70932AC4665E0085C8E2 /* LoginView.swift */,
+				92FB70942AC4665E0085C8E2 /* Models */,
+				92FB70972AC4665E0085C8E2 /* Services */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		92FB70942AC4665E0085C8E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70952AC4665E0085C8E2 /* LoginRequest.swift */,
+				92FB70962AC4665E0085C8E2 /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92FB70972AC4665E0085C8E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				92FB70982AC4665E0085C8E2 /* LoginTarget.swift */,
+				92FB70992AC4665E0085C8E2 /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A72671684A409C227CA4ED4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136210061A0F231BB2A32920 /* Pods_plenyTesk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE36260293A7C9811845B2C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF2C5BC10C2935F28E500C6B /* Pods-plenyTesk.debug.xcconfig */,
+				AAA36631DEA72E08100AA14B /* Pods-plenyTesk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92FB704D2AC4372F0085C8E2 /* Build configuration list for PBXNativeTarget "plenyTesk" */;
 			buildPhases = (
+				77F8AED92181C6AE8A21D719 /* [CP] Check Pods Manifest.lock */,
 				92FB70202AC4372C0085C8E2 /* Sources */,
 				92FB70212AC4372C0085C8E2 /* Frameworks */,
 				92FB70222AC4372C0085C8E2 /* Resources */,
+				CBB9029A8FD01F4511A9C30E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,15 +439,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77F8AED92181C6AE8A21D719 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plenyTesk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB9029A8FD01F4511A9C30E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plenyTesk/Pods-plenyTesk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plenyTesk/Pods-plenyTesk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plenyTesk/Pods-plenyTesk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92FB70202AC4372C0085C8E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92FB70312AC4372E0085C8E2 /* Persistence.swift in Sources */,
+				92FB70A42AC4665E0085C8E2 /* LoginRequest.swift in Sources */,
+				92FB70A02AC4665E0085C8E2 /* PostsServices.swift in Sources */,
+				92FB70702AC45CDA0085C8E2 /* Post+CoreDataClass.swift in Sources */,
+				92FB70A62AC4665E0085C8E2 /* LoginTarget.swift in Sources */,
+				92FB70A12AC4665E0085C8E2 /* PostsTarget.swift in Sources */,
+				92FB70A72AC4665E0085C8E2 /* LoginService.swift in Sources */,
+				92FB70A52AC4665E0085C8E2 /* LoginResponse.swift in Sources */,
+				92FB70722AC45CDA0085C8E2 /* Tag+CoreDataClass.swift in Sources */,
 				92FB70342AC4372E0085C8E2 /* plenyTesk.xcdatamodeld in Sources */,
 				92FB702A2AC4372C0085C8E2 /* ContentView.swift in Sources */,
+				92FB70712AC45CDA0085C8E2 /* Post+CoreDataProperties.swift in Sources */,
+				92FB70802AC466490085C8E2 /* TargetType.swift in Sources */,
+				92FB70A32AC4665E0085C8E2 /* LoginView.swift in Sources */,
+				92FB709E2AC4665E0085C8E2 /* PostView.swift in Sources */,
+				92FB709B2AC4665E0085C8E2 /* PostRequest.swift in Sources */,
 				92FB70282AC4372C0085C8E2 /* plenyTeskApp.swift in Sources */,
+				92FB70A22AC4665E0085C8E2 /* LoginViewModel.swift in Sources */,
+				92FB707C2AC466490085C8E2 /* Service.swift in Sources */,
+				92FB709C2AC4665E0085C8E2 /* PostsResponse.swift in Sources */,
+				92FB70832AC466540085C8E2 /* ViewExtension.swift in Sources */,
+				92FB709A2AC4665E0085C8E2 /* Coordinator.swift in Sources */,
+				92FB70732AC45CDA0085C8E2 /* Tag+CoreDataProperties.swift in Sources */,
+				92FB70842AC466540085C8E2 /* Extentions.swift in Sources */,
+				92CD0A272AC9952B003508F1 /* UserModel.swift in Sources */,
+				92FB709D2AC4665E0085C8E2 /* PostsViewModel.swift in Sources */,
+				92FB707D2AC466490085C8E2 /* BaseService.swift in Sources */,
+				92FB707E2AC466490085C8E2 /* NetworkEnums.swift in Sources */,
+				92FB70A92AC469E40085C8E2 /* LoadingView.swift in Sources */,
+				92FB707F2AC466490085C8E2 /* BaseResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +667,7 @@
 		};
 		92FB704E2AC4372F0085C8E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2C5BC10C2935F28E500C6B /* Pods-plenyTesk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +697,7 @@
 		};
 		92FB704F2AC4372F0085C8E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA36631DEA72E08100AA14B /* Pods-plenyTesk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
