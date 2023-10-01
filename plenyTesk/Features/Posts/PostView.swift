@@ -7,8 +7,38 @@
 
 import SwiftUI
 
+
+
+struct Box {
+    var id :Int
+    let  image :String
+}
+
+struct BoxView : View {
+    let box : Box
+    
+    var body : some View {
+        VStack{
+            Image("\(box.image)")
+                .resizable()
+                .cornerRadius(12)
+                .frame(width  : 140 , height : 140)
+        }
+    }
+}
+
+
 @MainActor
 struct PostsListView: View {
+    
+    
+    let boxes :[Box] = [
+    Box(id: 0, image: "login"),
+    Box(id: 1, image: "1"),
+    Box(id: 2, image: "2"),
+    Box(id: 3, image: "3")
+
+    ]
     
     @EnvironmentObject private var coordinator: Coordinator
     
@@ -38,12 +68,7 @@ struct PostsListView: View {
                                 ForEach(0..<2) { i in
                                     HStack {
                                         ForEach(0..<2) { j in
-                                            ZStack(alignment: .center) {
-                                                Color.red
-                                                    .clipped()
-                                                    .aspectRatio(contentMode: .fill)
-                                                    .frame(width: 120, height: 120)
-                                            }
+                                            BoxView(box: boxes[i+j])
                                             
                                         }
                                     }
@@ -53,7 +78,7 @@ struct PostsListView: View {
                         }
                         .onAppear{
                             if post == viewModel.posts.last  && viewModel.isRemainig{
-                                Task {    self.viewModel.fetchMovies()}
+                                Task {   await self.viewModel.fetchMovies()}
                                 
                             }
                         }
